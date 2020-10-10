@@ -1,68 +1,47 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  overscroll-behavior: none;
+	overscroll-behavior: none;
 }
 
 .app {
-  display: flex;
-  height: 100vh;
-  overflow: hidden;
+	display: flex;
+	height: 100vh;
+	overflow: hidden;
 }
 
 .editors-wrapper {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background: #343e44;
-  color: white;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background: #343e44;
+	color: white;
 }
 .editor-container {
-  flex-grow: 1;
-  flex-basis: 0;
-  padding: 0.5rem;
-  overflow: hidden;
+	flex-grow: 1;
+	flex-basis: 0;
+	padding: 0.5rem;
+	overflow: hidden;
 }
 
 .editor__header {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
 }
 
 .output-container {
-  flex-grow: 1;
-  flex-basis: 0;
+	flex-grow: 1;
+	flex-basis: 0;
 }
 
 .code-mirror-wrapper {
-  width: 100%;
-  height: 100%;
-  overflow: hidden !important;
-
-  
-}
-
-.CodeMirror-wrap::-webkit-scrollbar {
-  width: 0;
-}
-
-/* Track */
-.CodeMirror-wrap::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-.CodeMirror-wrap::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-.CodeMirror-wrap::-webkit-scrollbar-thumb:hover {
-  background: #555;
+	width: 100%;
+	height: 100%;
+	overflow: hidden !important;
 }
